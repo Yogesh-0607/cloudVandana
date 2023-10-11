@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main
+{
+    background-color: gray;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+}
+.cantainer
+{
+    width: 350px;
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.screen
+{
+    background-color: white;
+    width: 280px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  
+}
+
+.AC
+{
+    background-color: rgb(13, 125, 106);
+    color: white;
+    width: 78px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button
+{
+
+    width: 273px;
+    height: 340px;
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    top: 60px;
+    left: 1px;
+}
+
+.n1
+{   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+    
+}
+.n2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 63px;
+    
+}
+.n3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 64px;
+    
+}
+
+
+.n4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+
+
+.operation
+{   
+    background-color: rgb(172, 165, 165);
+    color: white;
+    width: 76px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 28px;
+    position: absolute;
+    top: 60px;
+    left: 274px;
+    border: none;
+}
+
+.btn1
+{
+    margin-right: 30px;
+}
